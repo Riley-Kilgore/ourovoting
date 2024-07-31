@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "build": "aiken build && blueprint plutus.json -o plutus.ts"
+    },
+    "dependencies": {
+        "@blaze-cardano/blueprint": "latest"
+    }
+}
